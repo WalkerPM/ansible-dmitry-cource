@@ -1,6 +1,6 @@
 ---
 - name: Sample installation
-  hosts: web-servers
+  hosts: any
 
   tasks:
   - name: Install Nginx
