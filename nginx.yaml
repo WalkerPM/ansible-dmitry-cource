@@ -1,4 +1,9 @@
-- name: Install Nginx
-  package:
-    name: nginx
-    state: latest
+---
+- name: Sample installation
+  hosts: web-servers
+
+  tasks:
+  - name: Install Nginx
+    package:
+      name: nginx
+      state: latest
